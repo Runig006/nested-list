@@ -4,6 +4,7 @@
   outline: none;
   counter-reset: item;
   list-style: none;
+  padding-left: 20px;
 
   &__item {
     line-height: 1.6em;
@@ -28,7 +29,9 @@
       white-space: pre-wrap;
     }
 
-    &-children {}
+    &-children {
+      padding-left: 0px;
+    }
 
     &::before {
       counter-increment: item;
